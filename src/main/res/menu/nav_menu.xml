@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"/>
+
+        <item
+            android:title="6 Week Courses">
+
+            <menu>
+                <item
+                    android:id="@+id/childMinding"
+                    android:title="Child Minding"/>
+                <item
+                    android:id="@+id/gardening"
+                    android:title="Gardening"/>
+                <item
+                    android:id="@+id/cooking"
+                    android:title="Cooking"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="6 Month Courses">
+
+            <menu>
+                <item
+                    android:id="@+id/firstAid"
+                    android:title="First-Aid"/>
+                <item
+                    android:id="@+id/sewing"
+                    android:title="Sewing"/>
+                <item
+                    android:id="@+id/landscaping"
+                    android:title="Landscaping"/>
+                <item
+                    android:id="@+id/lifeSkills"
+                    android:title="Life-SKills"/>
+            </menu>
+
+        </item>
+
+        <item
+            android:title="">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_locations"
+                    android:title="Locations"/>
+                <item
+                    android:id="@+id/cart"
+                    android:title="Cart"/>
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
